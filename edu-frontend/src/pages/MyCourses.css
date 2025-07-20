@@ -1,0 +1,14 @@
+.my-courses {
+  padding: 2rem;
+}
+
+.my-courses h2 {
+  color: #8E44AD;
+  margin-bottom: 1rem;
+}
+
+.my-courses .course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+}
